@@ -1,3 +1,6 @@
+
+#This represents the signals 
+#!/usr/bin/env python
 @receiver(user_logged_in)
 def log_user_logged_in_success(sender, user, request, **kwargs):
     try:
